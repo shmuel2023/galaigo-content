@@ -1,0 +1,50 @@
+[
+  {
+    "id": "g1",
+    "name": "גלאי מתכות למתחילים",
+    "category": "גלאים",
+    "description": "דגמי כניסה קלים להפעלה, מתאימים לחופים ולחיפוש חפצים אבודים. חפש דגמים עמידים למים לחופים.",
+    "url": null,
+    "sponsored": false
+  },
+  {
+    "id": "g2",
+    "name": "אוזניות לגלאי",
+    "category": "אביזרים",
+    "description": "אוזניות עוזרות לשמוע אותות חלשים בסביבה רועשת כמו חוף הים.",
+    "url": null,
+    "sponsored": false
+  },
+  {
+    "id": "g3",
+    "name": "פינפוינטר (גלאי כיס)",
+    "category": "אביזרים",
+    "description": "מכשיר קטן לאיתור מדויק של הממצא בתוך הבור — חוסך זמן חפירה.",
+    "url": null,
+    "sponsored": false
+  },
+  {
+    "id": "s1",
+    "name": "איתן גלאים",
+    "category": "חנויות בישראל",
+    "description": "חנות גלאי מתכות ואביזרים בישראל, כולל מדריכים על החוק והיכן מותר לחפש.",
+    "url": "https://www.eitan-detectors.co.il",
+    "sponsored": false
+  },
+  {
+    "id": "s2",
+    "name": "ארז גלאים",
+    "category": "חנויות בישראל",
+    "description": "גלאי מתכות, אביזרים ומידע על חוק העתיקות והשימוש בגלאים.",
+    "url": "https://www.detectors.co.il",
+    "sponsored": false
+  },
+  {
+    "id": "s3",
+    "name": "מרכז הגלאים אילת",
+    "category": "חנויות בישראל",
+    "description": "גלאי מתכות ומדריכים על היכן מותר ואסור לחפש בישראל ובעולם.",
+    "url": "https://www.detectors-center.co.il",
+    "sponsored": false
+  }
+]
