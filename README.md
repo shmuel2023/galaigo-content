@@ -1,0 +1,1 @@
+# galaigo-content
