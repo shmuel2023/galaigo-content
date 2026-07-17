@@ -2,9 +2,11 @@
 """
 GalaiGO — build sea_conditions.json from Open-Meteo (free, non-commercial).
 
-For each beach it fetches the Marine API (daily wave max + current wave/SST)
-and the Forecast API (sunrise), then derives:
+For each beach it fetches the Marine API (daily wave max + current wave/SST/ocean current)
+and the Forecast API (sunrise + wind), then derives:
   - after-storm flag (recent daily wave max was high AND now is calm)
+
+Wind + ocean current feed the app's diver ("מצב לצוללים") guidance.
 
 Tide times are intentionally NOT included: Open-Meteo's coastal sea-level model
 is too coarse for Israel's tiny (~0.3 m) tides to be meaningful.
@@ -70,14 +72,14 @@ def build_beach(b):
     marine = _get(MARINE_URL, {
         "latitude": b["lat"], "longitude": b["lon"],
         "daily": "wave_height_max",
-        "current": "wave_height,sea_surface_temperature",
+        "current": "wave_height,sea_surface_temperature,ocean_current_velocity",
         "past_days": PAST_DAYS, "forecast_days": FORECAST_DAYS,
         "length_unit": "metric", "cell_selection": "sea", "timezone": "auto",
     })
     fc = _get(FORECAST_URL, {
         "latitude": b["lat"], "longitude": b["lon"],
-        "daily": "sunrise", "forecast_days": FORECAST_DAYS,
-        "timezone": "auto",
+        "daily": "sunrise", "current": "wind_speed_10m",
+        "forecast_days": FORECAST_DAYS, "timezone": "auto",
     })
 
     dtimes = marine["daily"]["time"]
@@ -90,6 +92,8 @@ def build_beach(b):
     today = fc["daily"]["time"][0]
     wave_now = marine.get("current", {}).get("wave_height")
     sst_now = marine.get("current", {}).get("sea_surface_temperature")
+    current_kmh = marine.get("current", {}).get("ocean_current_velocity")
+    wind_kmh = fc.get("current", {}).get("wind_speed_10m")
 
     # after-storm: any of the past PAST_DAYS had a high max, and now calm
     recent = [daily_wmax.get(d) for d in dtimes if d < today]
@@ -104,6 +108,8 @@ def build_beach(b):
         "waveHeightNowM": round(wave_now, 2) if wave_now is not None else None,
         "waveHeightMaxTodayM": round(daily_wmax[today], 2) if daily_wmax.get(today) is not None else None,
         "seaTempC": round(sst_now, 1) if sst_now is not None else None,
+        "windKmh": round(wind_kmh, 1) if wind_kmh is not None else None,
+        "currentKmh": round(current_kmh, 1) if current_kmh is not None else None,
         "afterStorm": after_storm,
         "afterStormNote": storm_note,
     }
