@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T21:27:56Z",
+  "generatedAt": "2026-07-17T21:32:30Z",
   "attribution": "נתוני ים: Open-Meteo · DWD (CC BY 4.0)",
   "beaches": [
     {
@@ -9,32 +9,27 @@
       "lat": 32.088,
       "lon": 34.767,
       "today": {
-        "date": "2026-07-17",
-        "sunrise": null,
+        "date": "2026-07-18",
+        "sunrise": "05:46",
         "lowTide": {
-          "time": "19:00",
-          "heightM": -0.35
+          "time": "20:00",
+          "heightM": -0.33
         },
         "highTide": {
           "time": "13:00",
-          "heightM": 0.02
+          "heightM": -0.02
         },
         "recommendedWindow": {
-          "start": "17:30",
-          "end": "20:30"
+          "start": "18:30",
+          "end": "21:30"
         },
         "waveHeightNowM": 0.64,
-        "waveHeightMaxTodayM": 0.82,
+        "waveHeightMaxTodayM": 0.64,
         "seaTempC": 29.1,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-07-18",
-          "waveMaxM": 0.64,
-          "lowTide": "20:00"
-        },
         {
           "date": "2026-07-19",
           "waveMaxM": 0.6,
@@ -74,32 +69,27 @@
       "lat": 31.673,
       "lon": 34.556,
       "today": {
-        "date": "2026-07-17",
-        "sunrise": null,
+        "date": "2026-07-18",
+        "sunrise": "05:48",
         "lowTide": {
-          "time": "06:00",
-          "heightM": -0.35
+          "time": "07:00",
+          "heightM": -0.33
         },
         "highTide": {
           "time": "13:00",
-          "heightM": 0.01
+          "heightM": -0.02
         },
         "recommendedWindow": {
-          "start": "04:30",
-          "end": "07:30"
+          "start": "05:30",
+          "end": "08:30"
         },
         "waveHeightNowM": 0.58,
-        "waveHeightMaxTodayM": 0.78,
+        "waveHeightMaxTodayM": 0.58,
         "seaTempC": 28.5,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-07-18",
-          "waveMaxM": 0.58,
-          "lowTide": "07:00"
-        },
         {
           "date": "2026-07-19",
           "waveMaxM": 0.58,
@@ -139,32 +129,27 @@
       "lat": 31.93,
       "lon": 34.698,
       "today": {
-        "date": "2026-07-17",
-        "sunrise": null,
+        "date": "2026-07-18",
+        "sunrise": "05:47",
         "lowTide": {
-          "time": "19:00",
-          "heightM": -0.35
+          "time": "07:00",
+          "heightM": -0.33
         },
         "highTide": {
           "time": "13:00",
-          "heightM": 0.01
+          "heightM": -0.02
         },
         "recommendedWindow": {
-          "start": "17:30",
-          "end": "20:30"
+          "start": "05:30",
+          "end": "08:30"
         },
         "waveHeightNowM": 0.62,
-        "waveHeightMaxTodayM": 0.82,
+        "waveHeightMaxTodayM": 0.62,
         "seaTempC": 28.4,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-07-18",
-          "waveMaxM": 0.62,
-          "lowTide": "07:00"
-        },
         {
           "date": "2026-07-19",
           "waveMaxM": 0.58,
@@ -204,32 +189,27 @@
       "lat": 32.516,
       "lon": 34.892,
       "today": {
-        "date": "2026-07-17",
-        "sunrise": null,
+        "date": "2026-07-18",
+        "sunrise": "05:45",
         "lowTide": {
-          "time": "19:00",
-          "heightM": -0.35
+          "time": "07:00",
+          "heightM": -0.33
         },
         "highTide": {
           "time": "13:00",
-          "heightM": 0.01
+          "heightM": -0.03
         },
         "recommendedWindow": {
-          "start": "17:30",
-          "end": "20:30"
+          "start": "05:30",
+          "end": "08:30"
         },
         "waveHeightNowM": 0.62,
-        "waveHeightMaxTodayM": 0.74,
+        "waveHeightMaxTodayM": 0.62,
         "seaTempC": 28.4,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-07-18",
-          "waveMaxM": 0.62,
-          "lowTide": "07:00"
-        },
         {
           "date": "2026-07-19",
           "waveMaxM": 0.56,
@@ -269,32 +249,27 @@
       "lat": 32.328,
       "lon": 34.849,
       "today": {
-        "date": "2026-07-17",
-        "sunrise": null,
+        "date": "2026-07-18",
+        "sunrise": "05:46",
         "lowTide": {
-          "time": "06:00",
-          "heightM": -0.34
+          "time": "07:00",
+          "heightM": -0.33
         },
         "highTide": {
           "time": "13:00",
-          "heightM": 0.01
+          "heightM": -0.02
         },
         "recommendedWindow": {
-          "start": "04:30",
-          "end": "07:30"
+          "start": "05:30",
+          "end": "08:30"
         },
         "waveHeightNowM": 0.62,
-        "waveHeightMaxTodayM": 0.78,
+        "waveHeightMaxTodayM": 0.62,
         "seaTempC": 28.5,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-07-18",
-          "waveMaxM": 0.62,
-          "lowTide": "07:00"
-        },
         {
           "date": "2026-07-19",
           "waveMaxM": 0.58,
@@ -334,32 +309,27 @@
       "lat": 32.826,
       "lon": 34.955,
       "today": {
-        "date": "2026-07-17",
-        "sunrise": null,
+        "date": "2026-07-18",
+        "sunrise": "05:44",
         "lowTide": {
-          "time": "19:00",
-          "heightM": -0.35
+          "time": "07:00",
+          "heightM": -0.33
         },
         "highTide": {
           "time": "13:00",
-          "heightM": 0.01
+          "heightM": -0.03
         },
         "recommendedWindow": {
-          "start": "17:30",
-          "end": "20:30"
+          "start": "05:30",
+          "end": "08:30"
         },
         "waveHeightNowM": 0.62,
-        "waveHeightMaxTodayM": 0.74,
+        "waveHeightMaxTodayM": 0.64,
         "seaTempC": 28.6,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-07-18",
-          "waveMaxM": 0.64,
-          "lowTide": "07:00"
-        },
         {
           "date": "2026-07-19",
           "waveMaxM": 0.56,
@@ -399,32 +369,27 @@
       "lat": 29.556,
       "lon": 34.951,
       "today": {
-        "date": "2026-07-17",
-        "sunrise": null,
+        "date": "2026-07-18",
+        "sunrise": "05:52",
         "lowTide": {
-          "time": "15:00",
+          "time": "04:00",
           "heightM": -0.34
         },
         "highTide": {
-          "time": "21:00",
-          "heightM": 0.4
+          "time": "22:00",
+          "heightM": 0.33
         },
         "recommendedWindow": {
-          "start": "13:30",
-          "end": "16:30"
+          "start": "02:30",
+          "end": "05:30"
         },
         "waveHeightNowM": null,
         "waveHeightMaxTodayM": null,
-        "seaTempC": 27.9,
+        "seaTempC": 27.8,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-07-18",
-          "waveMaxM": null,
-          "lowTide": "04:00"
-        },
         {
           "date": "2026-07-19",
           "waveMaxM": null,
