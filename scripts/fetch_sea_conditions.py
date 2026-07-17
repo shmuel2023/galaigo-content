@@ -2,11 +2,12 @@
 """
 GalaiGO — build sea_conditions.json from Open-Meteo (free, non-commercial).
 
-For each beach it fetches the Marine API (waves + sea level incl. tides + SST)
+For each beach it fetches the Marine API (daily wave max + current wave/SST)
 and the Forecast API (sunrise), then derives:
-  - low/high tide time+height (min/max of hourly sea_level_height_msl per day)
-  - recommended window (low tide +/- 90 min)
   - after-storm flag (recent daily wave max was high AND now is calm)
+
+Tide times are intentionally NOT included: Open-Meteo's coastal sea-level model
+is too coarse for Israel's tiny (~0.3 m) tides to be meaningful.
 
 Publishes the file ONLY if every beach succeeded, so a partial failure never
 overwrites good data with junk.
@@ -65,31 +66,9 @@ def _day_of(iso):
     return iso.split("T")[0]
 
 
-def _tides_for_day(times, levels, day):
-    pts = [(t, lv) for t, lv in zip(times, levels) if _day_of(t) == day and lv is not None]
-    if not pts:
-        return None, None
-    low = min(pts, key=lambda p: p[1])
-    high = max(pts, key=lambda p: p[1])
-    return (
-        {"time": _hhmm(low[0]), "heightM": round(low[1], 2)},
-        {"time": _hhmm(high[0]), "heightM": round(high[1], 2)},
-    )
-
-
-def _window(low_time):
-    # low_time "11:20" -> 09:50 .. 12:50 (+/- 90 min)
-    h, m = int(low_time[:2]), int(low_time[3:5])
-    total = h * 60 + m
-    s, e = total - 90, total + 90
-    fmt = lambda x: f"{(x // 60) % 24:02d}:{x % 60:02d}"
-    return {"start": fmt(s), "end": fmt(e)}
-
-
 def build_beach(b):
     marine = _get(MARINE_URL, {
         "latitude": b["lat"], "longitude": b["lon"],
-        "hourly": "sea_level_height_msl,wave_height",
         "daily": "wave_height_max",
         "current": "wave_height,sea_surface_temperature",
         "past_days": PAST_DAYS, "forecast_days": FORECAST_DAYS,
@@ -101,15 +80,13 @@ def build_beach(b):
         "timezone": "auto",
     })
 
-    htimes = marine["hourly"]["time"]
-    levels = marine["hourly"]["sea_level_height_msl"]
     dtimes = marine["daily"]["time"]
     wmax = marine["daily"]["wave_height_max"]
     daily_wmax = {d: w for d, w in zip(dtimes, wmax)}
     sunrise = {_day_of(t): _hhmm(t) for t in fc["daily"]["sunrise"]}
 
     # Use the API's local "today" (timezone=auto), not UTC — so the date matches
-    # the Israeli user's device and sunrise/tide lookups line up near midnight UTC.
+    # the Israeli user's device and sunrise lines up near midnight UTC.
     today = fc["daily"]["time"][0]
     wave_now = marine.get("current", {}).get("wave_height")
     sst_now = marine.get("current", {}).get("sea_surface_temperature")
@@ -121,15 +98,9 @@ def build_beach(b):
     after_storm = bool(stormy and wave_now is not None and wave_now < CALM_WAVE_M)
     storm_note = "הים היה גבוה לאחרונה — עכשיו הזדמנות מצוינת, החול זז ונחשפו שכבות." if after_storm else None
 
-    low, high = _tides_for_day(htimes, levels, today)
-    window = _window(low["time"]) if low else None
-
     day_block = {
         "date": today,
         "sunrise": sunrise.get(today),
-        "lowTide": low,
-        "highTide": high,
-        "recommendedWindow": window,
         "waveHeightNowM": round(wave_now, 2) if wave_now is not None else None,
         "waveHeightMaxTodayM": round(daily_wmax[today], 2) if daily_wmax.get(today) is not None else None,
         "seaTempC": round(sst_now, 1) if sst_now is not None else None,
@@ -141,11 +112,9 @@ def build_beach(b):
     for d in dtimes:
         if d <= today:
             continue
-        low_f, _ = _tides_for_day(htimes, levels, d)
         forecast.append({
             "date": d,
             "waveMaxM": round(daily_wmax[d], 2) if daily_wmax.get(d) is not None else None,
-            "lowTide": low_f["time"] if low_f else None,
         })
 
     return {
