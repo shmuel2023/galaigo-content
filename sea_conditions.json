@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T21:59:12Z",
+  "generatedAt": "2026-07-17T22:21:15Z",
   "attribution": "נתוני ים: Open-Meteo · DWD (CC BY 4.0)",
   "beaches": [
     {
@@ -11,9 +11,11 @@
       "today": {
         "date": "2026-07-18",
         "sunrise": "05:46",
-        "waveHeightNowM": 0.64,
+        "waveHeightNowM": 0.62,
         "waveHeightMaxTodayM": 0.64,
         "seaTempC": 29.1,
+        "windKmh": 3.6,
+        "currentKmh": 0.3,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -56,6 +58,8 @@
         "waveHeightNowM": 0.58,
         "waveHeightMaxTodayM": 0.58,
         "seaTempC": 28.5,
+        "windKmh": 4.7,
+        "currentKmh": 0.4,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -98,6 +102,8 @@
         "waveHeightNowM": 0.62,
         "waveHeightMaxTodayM": 0.62,
         "seaTempC": 28.4,
+        "windKmh": 3.7,
+        "currentKmh": 0.2,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -137,9 +143,11 @@
       "today": {
         "date": "2026-07-18",
         "sunrise": "05:45",
-        "waveHeightNowM": 0.62,
+        "waveHeightNowM": 0.6,
         "waveHeightMaxTodayM": 0.62,
-        "seaTempC": 28.4,
+        "seaTempC": 28.3,
+        "windKmh": 3.7,
+        "currentKmh": 0.4,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -182,6 +190,8 @@
         "waveHeightNowM": 0.62,
         "waveHeightMaxTodayM": 0.62,
         "seaTempC": 28.5,
+        "windKmh": 4.0,
+        "currentKmh": 0.0,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -221,9 +231,11 @@
       "today": {
         "date": "2026-07-18",
         "sunrise": "05:44",
-        "waveHeightNowM": 0.62,
+        "waveHeightNowM": 0.6,
         "waveHeightMaxTodayM": 0.64,
         "seaTempC": 28.6,
+        "windKmh": 8.4,
+        "currentKmh": 0.5,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -266,6 +278,8 @@
         "waveHeightNowM": null,
         "waveHeightMaxTodayM": null,
         "seaTempC": 27.8,
+        "windKmh": 6.5,
+        "currentKmh": 0.0,
         "afterStorm": false,
         "afterStormNote": null
       },
