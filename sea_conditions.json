@@ -1,0 +1,461 @@
+{
+  "generatedAt": "2026-07-17T21:27:56Z",
+  "attribution": "נתוני ים: Open-Meteo · DWD (CC BY 4.0)",
+  "beaches": [
+    {
+      "id": "tel-aviv-gordon",
+      "name": "חוף גורדון, תל אביב",
+      "region": "תל אביב",
+      "lat": 32.088,
+      "lon": 34.767,
+      "today": {
+        "date": "2026-07-17",
+        "sunrise": null,
+        "lowTide": {
+          "time": "19:00",
+          "heightM": -0.35
+        },
+        "highTide": {
+          "time": "13:00",
+          "heightM": 0.02
+        },
+        "recommendedWindow": {
+          "start": "17:30",
+          "end": "20:30"
+        },
+        "waveHeightNowM": 0.64,
+        "waveHeightMaxTodayM": 0.82,
+        "seaTempC": 29.1,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-18",
+          "waveMaxM": 0.64,
+          "lowTide": "20:00"
+        },
+        {
+          "date": "2026-07-19",
+          "waveMaxM": 0.6,
+          "lowTide": "20:00"
+        },
+        {
+          "date": "2026-07-20",
+          "waveMaxM": 0.52,
+          "lowTide": "08:00"
+        },
+        {
+          "date": "2026-07-21",
+          "waveMaxM": 0.48,
+          "lowTide": "09:00"
+        },
+        {
+          "date": "2026-07-22",
+          "waveMaxM": 0.72,
+          "lowTide": "10:00"
+        },
+        {
+          "date": "2026-07-23",
+          "waveMaxM": 0.82,
+          "lowTide": "12:00"
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": 1.02,
+          "lowTide": "14:00"
+        }
+      ]
+    },
+    {
+      "id": "ashkelon-delila",
+      "name": "חוף דלילה, אשקלון",
+      "region": "אשקלון",
+      "lat": 31.673,
+      "lon": 34.556,
+      "today": {
+        "date": "2026-07-17",
+        "sunrise": null,
+        "lowTide": {
+          "time": "06:00",
+          "heightM": -0.35
+        },
+        "highTide": {
+          "time": "13:00",
+          "heightM": 0.01
+        },
+        "recommendedWindow": {
+          "start": "04:30",
+          "end": "07:30"
+        },
+        "waveHeightNowM": 0.58,
+        "waveHeightMaxTodayM": 0.78,
+        "seaTempC": 28.5,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-18",
+          "waveMaxM": 0.58,
+          "lowTide": "07:00"
+        },
+        {
+          "date": "2026-07-19",
+          "waveMaxM": 0.58,
+          "lowTide": "20:00"
+        },
+        {
+          "date": "2026-07-20",
+          "waveMaxM": 0.52,
+          "lowTide": "08:00"
+        },
+        {
+          "date": "2026-07-21",
+          "waveMaxM": 0.44,
+          "lowTide": "09:00"
+        },
+        {
+          "date": "2026-07-22",
+          "waveMaxM": 0.66,
+          "lowTide": "10:00"
+        },
+        {
+          "date": "2026-07-23",
+          "waveMaxM": 0.76,
+          "lowTide": "12:00"
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": 0.94,
+          "lowTide": "14:00"
+        }
+      ]
+    },
+    {
+      "id": "palmachim",
+      "name": "חוף פלמחים",
+      "region": "מרכז",
+      "lat": 31.93,
+      "lon": 34.698,
+      "today": {
+        "date": "2026-07-17",
+        "sunrise": null,
+        "lowTide": {
+          "time": "19:00",
+          "heightM": -0.35
+        },
+        "highTide": {
+          "time": "13:00",
+          "heightM": 0.01
+        },
+        "recommendedWindow": {
+          "start": "17:30",
+          "end": "20:30"
+        },
+        "waveHeightNowM": 0.62,
+        "waveHeightMaxTodayM": 0.82,
+        "seaTempC": 28.4,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-18",
+          "waveMaxM": 0.62,
+          "lowTide": "07:00"
+        },
+        {
+          "date": "2026-07-19",
+          "waveMaxM": 0.58,
+          "lowTide": "20:00"
+        },
+        {
+          "date": "2026-07-20",
+          "waveMaxM": 0.56,
+          "lowTide": "08:00"
+        },
+        {
+          "date": "2026-07-21",
+          "waveMaxM": 0.48,
+          "lowTide": "09:00"
+        },
+        {
+          "date": "2026-07-22",
+          "waveMaxM": 0.7,
+          "lowTide": "10:00"
+        },
+        {
+          "date": "2026-07-23",
+          "waveMaxM": 0.8,
+          "lowTide": "12:00"
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": 0.98,
+          "lowTide": "13:00"
+        }
+      ]
+    },
+    {
+      "id": "caesarea-aqueduct",
+      "name": "חוף האקוודוקט, קיסריה",
+      "region": "חוף הכרמל",
+      "lat": 32.516,
+      "lon": 34.892,
+      "today": {
+        "date": "2026-07-17",
+        "sunrise": null,
+        "lowTide": {
+          "time": "19:00",
+          "heightM": -0.35
+        },
+        "highTide": {
+          "time": "13:00",
+          "heightM": 0.01
+        },
+        "recommendedWindow": {
+          "start": "17:30",
+          "end": "20:30"
+        },
+        "waveHeightNowM": 0.62,
+        "waveHeightMaxTodayM": 0.74,
+        "seaTempC": 28.4,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-18",
+          "waveMaxM": 0.62,
+          "lowTide": "07:00"
+        },
+        {
+          "date": "2026-07-19",
+          "waveMaxM": 0.56,
+          "lowTide": "20:00"
+        },
+        {
+          "date": "2026-07-20",
+          "waveMaxM": 0.5,
+          "lowTide": "21:00"
+        },
+        {
+          "date": "2026-07-21",
+          "waveMaxM": 0.48,
+          "lowTide": "09:00"
+        },
+        {
+          "date": "2026-07-22",
+          "waveMaxM": 0.76,
+          "lowTide": "10:00"
+        },
+        {
+          "date": "2026-07-23",
+          "waveMaxM": 0.86,
+          "lowTide": "12:00"
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": 1.02,
+          "lowTide": "13:00"
+        }
+      ]
+    },
+    {
+      "id": "netanya-sironit",
+      "name": "חוף סירונית, נתניה",
+      "region": "נתניה",
+      "lat": 32.328,
+      "lon": 34.849,
+      "today": {
+        "date": "2026-07-17",
+        "sunrise": null,
+        "lowTide": {
+          "time": "06:00",
+          "heightM": -0.34
+        },
+        "highTide": {
+          "time": "13:00",
+          "heightM": 0.01
+        },
+        "recommendedWindow": {
+          "start": "04:30",
+          "end": "07:30"
+        },
+        "waveHeightNowM": 0.62,
+        "waveHeightMaxTodayM": 0.78,
+        "seaTempC": 28.5,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-18",
+          "waveMaxM": 0.62,
+          "lowTide": "07:00"
+        },
+        {
+          "date": "2026-07-19",
+          "waveMaxM": 0.58,
+          "lowTide": "20:00"
+        },
+        {
+          "date": "2026-07-20",
+          "waveMaxM": 0.52,
+          "lowTide": "21:00"
+        },
+        {
+          "date": "2026-07-21",
+          "waveMaxM": 0.48,
+          "lowTide": "09:00"
+        },
+        {
+          "date": "2026-07-22",
+          "waveMaxM": 0.72,
+          "lowTide": "11:00"
+        },
+        {
+          "date": "2026-07-23",
+          "waveMaxM": 0.82,
+          "lowTide": "12:00"
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": 1.04,
+          "lowTide": "14:00"
+        }
+      ]
+    },
+    {
+      "id": "haifa-dado",
+      "name": "חוף דדו, חיפה",
+      "region": "חיפה",
+      "lat": 32.826,
+      "lon": 34.955,
+      "today": {
+        "date": "2026-07-17",
+        "sunrise": null,
+        "lowTide": {
+          "time": "19:00",
+          "heightM": -0.35
+        },
+        "highTide": {
+          "time": "13:00",
+          "heightM": 0.01
+        },
+        "recommendedWindow": {
+          "start": "17:30",
+          "end": "20:30"
+        },
+        "waveHeightNowM": 0.62,
+        "waveHeightMaxTodayM": 0.74,
+        "seaTempC": 28.6,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-18",
+          "waveMaxM": 0.64,
+          "lowTide": "07:00"
+        },
+        {
+          "date": "2026-07-19",
+          "waveMaxM": 0.56,
+          "lowTide": "20:00"
+        },
+        {
+          "date": "2026-07-20",
+          "waveMaxM": 0.5,
+          "lowTide": "21:00"
+        },
+        {
+          "date": "2026-07-21",
+          "waveMaxM": 0.5,
+          "lowTide": "09:00"
+        },
+        {
+          "date": "2026-07-22",
+          "waveMaxM": 0.76,
+          "lowTide": "10:00"
+        },
+        {
+          "date": "2026-07-23",
+          "waveMaxM": 0.88,
+          "lowTide": "12:00"
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": 1.06,
+          "lowTide": "14:00"
+        }
+      ]
+    },
+    {
+      "id": "eilat-north",
+      "name": "החוף הצפוני, אילת",
+      "region": "אילת",
+      "lat": 29.556,
+      "lon": 34.951,
+      "today": {
+        "date": "2026-07-17",
+        "sunrise": null,
+        "lowTide": {
+          "time": "15:00",
+          "heightM": -0.34
+        },
+        "highTide": {
+          "time": "21:00",
+          "heightM": 0.4
+        },
+        "recommendedWindow": {
+          "start": "13:30",
+          "end": "16:30"
+        },
+        "waveHeightNowM": null,
+        "waveHeightMaxTodayM": null,
+        "seaTempC": 27.9,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-18",
+          "waveMaxM": null,
+          "lowTide": "04:00"
+        },
+        {
+          "date": "2026-07-19",
+          "waveMaxM": null,
+          "lowTide": "04:00"
+        },
+        {
+          "date": "2026-07-20",
+          "waveMaxM": null,
+          "lowTide": "05:00"
+        },
+        {
+          "date": "2026-07-21",
+          "waveMaxM": null,
+          "lowTide": "06:00"
+        },
+        {
+          "date": "2026-07-22",
+          "waveMaxM": null,
+          "lowTide": "07:00"
+        },
+        {
+          "date": "2026-07-23",
+          "waveMaxM": null,
+          "lowTide": "09:00"
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": null,
+          "lowTide": "09:00"
+        }
+      ]
+    }
+  ]
+}
