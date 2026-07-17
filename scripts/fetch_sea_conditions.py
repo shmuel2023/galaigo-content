@@ -108,7 +108,9 @@ def build_beach(b):
     daily_wmax = {d: w for d, w in zip(dtimes, wmax)}
     sunrise = {_day_of(t): _hhmm(t) for t in fc["daily"]["sunrise"]}
 
-    today = date.today().isoformat()
+    # Use the API's local "today" (timezone=auto), not UTC — so the date matches
+    # the Israeli user's device and sunrise/tide lookups line up near midnight UTC.
+    today = fc["daily"]["time"][0]
     wave_now = marine.get("current", {}).get("wave_height")
     sst_now = marine.get("current", {}).get("sea_surface_temperature")
 
