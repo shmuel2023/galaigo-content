@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T05:16:41Z",
+  "generatedAt": "2026-07-21T15:00:08Z",
   "attribution": "נתוני ים: Open-Meteo · DWD (CC BY 4.0)",
   "beaches": [
     {
@@ -11,10 +11,10 @@
       "today": {
         "date": "2026-07-21",
         "sunrise": "05:48",
-        "waveHeightNowM": 0.5,
-        "waveHeightMaxTodayM": 0.58,
-        "seaTempC": 29.3,
-        "windKmh": 6.9,
+        "waveHeightNowM": 0.46,
+        "waveHeightMaxTodayM": 0.54,
+        "seaTempC": 29.6,
+        "windKmh": 9.7,
         "currentKmh": 0.4,
         "afterStorm": false,
         "afterStormNote": null
@@ -22,27 +22,27 @@
       "forecast": [
         {
           "date": "2026-07-22",
-          "waveMaxM": 0.62
+          "waveMaxM": 0.66
         },
         {
           "date": "2026-07-23",
-          "waveMaxM": 0.8
+          "waveMaxM": 0.84
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.34
+          "waveMaxM": 1.46
         },
         {
           "date": "2026-07-25",
-          "waveMaxM": 1.52
+          "waveMaxM": 1.58
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.2
+          "waveMaxM": 1.12
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 1.0
+          "waveMaxM": 0.92
         }
       ]
     },
@@ -55,38 +55,38 @@
       "today": {
         "date": "2026-07-21",
         "sunrise": "05:50",
-        "waveHeightNowM": 0.48,
-        "waveHeightMaxTodayM": 0.54,
-        "seaTempC": 28.8,
-        "windKmh": 8.4,
-        "currentKmh": 0.4,
+        "waveHeightNowM": 0.42,
+        "waveHeightMaxTodayM": 0.52,
+        "seaTempC": 29.1,
+        "windKmh": 11.5,
+        "currentKmh": 0.6,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
         {
           "date": "2026-07-22",
-          "waveMaxM": 0.58
+          "waveMaxM": 0.64
         },
         {
           "date": "2026-07-23",
-          "waveMaxM": 0.78
+          "waveMaxM": 0.82
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.24
-        },
-        {
-          "date": "2026-07-25",
           "waveMaxM": 1.38
         },
         {
+          "date": "2026-07-25",
+          "waveMaxM": 1.48
+        },
+        {
           "date": "2026-07-26",
-          "waveMaxM": 1.08
+          "waveMaxM": 1.0
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 0.94
+          "waveMaxM": 0.88
         }
       ]
     },
@@ -99,10 +99,10 @@
       "today": {
         "date": "2026-07-21",
         "sunrise": "05:49",
-        "waveHeightNowM": 0.5,
-        "waveHeightMaxTodayM": 0.58,
-        "seaTempC": 28.7,
-        "windKmh": 7.6,
+        "waveHeightNowM": 0.44,
+        "waveHeightMaxTodayM": 0.54,
+        "seaTempC": 29.0,
+        "windKmh": 11.2,
         "currentKmh": 0.8,
         "afterStorm": false,
         "afterStormNote": null
@@ -110,27 +110,27 @@
       "forecast": [
         {
           "date": "2026-07-22",
-          "waveMaxM": 0.62
+          "waveMaxM": 0.66
         },
         {
           "date": "2026-07-23",
-          "waveMaxM": 0.8
+          "waveMaxM": 0.86
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.3
+          "waveMaxM": 1.44
         },
         {
           "date": "2026-07-25",
-          "waveMaxM": 1.46
+          "waveMaxM": 1.54
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.16
+          "waveMaxM": 1.08
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 0.98
+          "waveMaxM": 0.92
         }
       ]
     },
@@ -143,11 +143,11 @@
       "today": {
         "date": "2026-07-21",
         "sunrise": "05:47",
-        "waveHeightNowM": 0.5,
-        "waveHeightMaxTodayM": 0.56,
-        "seaTempC": 28.8,
-        "windKmh": 7.9,
-        "currentKmh": 0.5,
+        "waveHeightNowM": 0.48,
+        "waveHeightMaxTodayM": 0.54,
+        "seaTempC": 29.0,
+        "windKmh": 13.5,
+        "currentKmh": 0.3,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -158,23 +158,23 @@
         },
         {
           "date": "2026-07-23",
-          "waveMaxM": 0.78
+          "waveMaxM": 0.82
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.34
+          "waveMaxM": 1.46
         },
         {
           "date": "2026-07-25",
-          "waveMaxM": 1.56
+          "waveMaxM": 1.58
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.2
+          "waveMaxM": 1.14
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 0.98
+          "waveMaxM": 0.9
         }
       ]
     },
@@ -187,38 +187,38 @@
       "today": {
         "date": "2026-07-21",
         "sunrise": "05:48",
-        "waveHeightNowM": 0.48,
-        "waveHeightMaxTodayM": 0.56,
-        "seaTempC": 28.8,
-        "windKmh": 9.3,
-        "currentKmh": 0.5,
+        "waveHeightNowM": 0.46,
+        "waveHeightMaxTodayM": 0.54,
+        "seaTempC": 29.0,
+        "windKmh": 11.0,
+        "currentKmh": 0.4,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
         {
           "date": "2026-07-22",
-          "waveMaxM": 0.62
+          "waveMaxM": 0.64
         },
         {
           "date": "2026-07-23",
-          "waveMaxM": 0.78
+          "waveMaxM": 0.82
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.36
+          "waveMaxM": 1.48
         },
         {
           "date": "2026-07-25",
-          "waveMaxM": 1.56
+          "waveMaxM": 1.62
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.22
+          "waveMaxM": 1.14
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 1.02
+          "waveMaxM": 0.94
         }
       ]
     },
@@ -231,11 +231,11 @@
       "today": {
         "date": "2026-07-21",
         "sunrise": "05:46",
-        "waveHeightNowM": 0.52,
-        "waveHeightMaxTodayM": 0.56,
-        "seaTempC": 29.0,
-        "windKmh": 11.2,
-        "currentKmh": 0.3,
+        "waveHeightNowM": 0.5,
+        "waveHeightMaxTodayM": 0.54,
+        "seaTempC": 29.3,
+        "windKmh": 16.1,
+        "currentKmh": 0.5,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -246,11 +246,11 @@
         },
         {
           "date": "2026-07-23",
-          "waveMaxM": 0.78
+          "waveMaxM": 0.84
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.38
+          "waveMaxM": 1.46
         },
         {
           "date": "2026-07-25",
@@ -258,11 +258,11 @@
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.22
+          "waveMaxM": 1.16
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 0.98
+          "waveMaxM": 0.9
         }
       ]
     },
@@ -277,9 +277,9 @@
         "sunrise": "05:53",
         "waveHeightNowM": null,
         "waveHeightMaxTodayM": null,
-        "seaTempC": 28.0,
-        "windKmh": 6.8,
-        "currentKmh": 0.2,
+        "seaTempC": 28.3,
+        "windKmh": 20.3,
+        "currentKmh": 0.4,
         "afterStorm": false,
         "afterStormNote": null
       },
