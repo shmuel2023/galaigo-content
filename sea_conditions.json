@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:00:08Z",
+  "generatedAt": "2026-07-22T05:16:07Z",
   "attribution": "נתוני ים: Open-Meteo · DWD (CC BY 4.0)",
   "beaches": [
     {
@@ -9,40 +9,40 @@
       "lat": 32.088,
       "lon": 34.767,
       "today": {
-        "date": "2026-07-21",
-        "sunrise": "05:48",
-        "waveHeightNowM": 0.46,
-        "waveHeightMaxTodayM": 0.54,
-        "seaTempC": 29.6,
-        "windKmh": 9.7,
-        "currentKmh": 0.4,
+        "date": "2026-07-22",
+        "sunrise": "05:49",
+        "waveHeightNowM": 0.64,
+        "waveHeightMaxTodayM": 0.66,
+        "seaTempC": 29.2,
+        "windKmh": 8.8,
+        "currentKmh": 0.6,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-07-22",
-          "waveMaxM": 0.66
-        },
-        {
           "date": "2026-07-23",
-          "waveMaxM": 0.84
+          "waveMaxM": 0.86
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.46
+          "waveMaxM": 1.5
         },
         {
           "date": "2026-07-25",
-          "waveMaxM": 1.58
+          "waveMaxM": 1.68
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.12
+          "waveMaxM": 1.22
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 0.92
+          "waveMaxM": 0.98
+        },
+        {
+          "date": "2026-07-28",
+          "waveMaxM": 0.82
         }
       ]
     },
@@ -53,40 +53,40 @@
       "lat": 31.673,
       "lon": 34.556,
       "today": {
-        "date": "2026-07-21",
-        "sunrise": "05:50",
-        "waveHeightNowM": 0.42,
-        "waveHeightMaxTodayM": 0.52,
-        "seaTempC": 29.1,
-        "windKmh": 11.5,
+        "date": "2026-07-22",
+        "sunrise": "05:51",
+        "waveHeightNowM": 0.6,
+        "waveHeightMaxTodayM": 0.64,
+        "seaTempC": 28.9,
+        "windKmh": 10.2,
         "currentKmh": 0.6,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-07-22",
-          "waveMaxM": 0.64
-        },
-        {
           "date": "2026-07-23",
-          "waveMaxM": 0.82
+          "waveMaxM": 0.84
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.38
+          "waveMaxM": 1.42
         },
         {
           "date": "2026-07-25",
-          "waveMaxM": 1.48
+          "waveMaxM": 1.56
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.0
+          "waveMaxM": 1.1
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 0.88
+          "waveMaxM": 0.9
+        },
+        {
+          "date": "2026-07-28",
+          "waveMaxM": 0.78
         }
       ]
     },
@@ -97,112 +97,20 @@
       "lat": 31.93,
       "lon": 34.698,
       "today": {
-        "date": "2026-07-21",
-        "sunrise": "05:49",
-        "waveHeightNowM": 0.44,
-        "waveHeightMaxTodayM": 0.54,
-        "seaTempC": 29.0,
-        "windKmh": 11.2,
+        "date": "2026-07-22",
+        "sunrise": "05:50",
+        "waveHeightNowM": 0.64,
+        "waveHeightMaxTodayM": 0.66,
+        "seaTempC": 28.7,
+        "windKmh": 10.3,
         "currentKmh": 0.8,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-07-22",
-          "waveMaxM": 0.66
-        },
-        {
           "date": "2026-07-23",
           "waveMaxM": 0.86
-        },
-        {
-          "date": "2026-07-24",
-          "waveMaxM": 1.44
-        },
-        {
-          "date": "2026-07-25",
-          "waveMaxM": 1.54
-        },
-        {
-          "date": "2026-07-26",
-          "waveMaxM": 1.08
-        },
-        {
-          "date": "2026-07-27",
-          "waveMaxM": 0.92
-        }
-      ]
-    },
-    {
-      "id": "caesarea-aqueduct",
-      "name": "חוף האקוודוקט, קיסריה",
-      "region": "חוף הכרמל",
-      "lat": 32.516,
-      "lon": 34.892,
-      "today": {
-        "date": "2026-07-21",
-        "sunrise": "05:47",
-        "waveHeightNowM": 0.48,
-        "waveHeightMaxTodayM": 0.54,
-        "seaTempC": 29.0,
-        "windKmh": 13.5,
-        "currentKmh": 0.3,
-        "afterStorm": false,
-        "afterStormNote": null
-      },
-      "forecast": [
-        {
-          "date": "2026-07-22",
-          "waveMaxM": 0.64
-        },
-        {
-          "date": "2026-07-23",
-          "waveMaxM": 0.82
-        },
-        {
-          "date": "2026-07-24",
-          "waveMaxM": 1.46
-        },
-        {
-          "date": "2026-07-25",
-          "waveMaxM": 1.58
-        },
-        {
-          "date": "2026-07-26",
-          "waveMaxM": 1.14
-        },
-        {
-          "date": "2026-07-27",
-          "waveMaxM": 0.9
-        }
-      ]
-    },
-    {
-      "id": "netanya-sironit",
-      "name": "חוף סירונית, נתניה",
-      "region": "נתניה",
-      "lat": 32.328,
-      "lon": 34.849,
-      "today": {
-        "date": "2026-07-21",
-        "sunrise": "05:48",
-        "waveHeightNowM": 0.46,
-        "waveHeightMaxTodayM": 0.54,
-        "seaTempC": 29.0,
-        "windKmh": 11.0,
-        "currentKmh": 0.4,
-        "afterStorm": false,
-        "afterStormNote": null
-      },
-      "forecast": [
-        {
-          "date": "2026-07-22",
-          "waveMaxM": 0.64
-        },
-        {
-          "date": "2026-07-23",
-          "waveMaxM": 0.82
         },
         {
           "date": "2026-07-24",
@@ -214,11 +122,103 @@
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.14
+          "waveMaxM": 1.18
+        },
+        {
+          "date": "2026-07-27",
+          "waveMaxM": 0.96
+        },
+        {
+          "date": "2026-07-28",
+          "waveMaxM": 0.82
+        }
+      ]
+    },
+    {
+      "id": "caesarea-aqueduct",
+      "name": "חוף האקוודוקט, קיסריה",
+      "region": "חוף הכרמל",
+      "lat": 32.516,
+      "lon": 34.892,
+      "today": {
+        "date": "2026-07-22",
+        "sunrise": "05:48",
+        "waveHeightNowM": 0.64,
+        "waveHeightMaxTodayM": 0.66,
+        "seaTempC": 28.7,
+        "windKmh": 10.8,
+        "currentKmh": 0.9,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-23",
+          "waveMaxM": 0.84
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": 1.52
+        },
+        {
+          "date": "2026-07-25",
+          "waveMaxM": 1.66
+        },
+        {
+          "date": "2026-07-26",
+          "waveMaxM": 1.24
         },
         {
           "date": "2026-07-27",
           "waveMaxM": 0.94
+        },
+        {
+          "date": "2026-07-28",
+          "waveMaxM": 0.78
+        }
+      ]
+    },
+    {
+      "id": "netanya-sironit",
+      "name": "חוף סירונית, נתניה",
+      "region": "נתניה",
+      "lat": 32.328,
+      "lon": 34.849,
+      "today": {
+        "date": "2026-07-22",
+        "sunrise": "05:48",
+        "waveHeightNowM": 0.64,
+        "waveHeightMaxTodayM": 0.66,
+        "seaTempC": 28.8,
+        "windKmh": 12.2,
+        "currentKmh": 0.6,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-07-23",
+          "waveMaxM": 0.84
+        },
+        {
+          "date": "2026-07-24",
+          "waveMaxM": 1.52
+        },
+        {
+          "date": "2026-07-25",
+          "waveMaxM": 1.7
+        },
+        {
+          "date": "2026-07-26",
+          "waveMaxM": 1.26
+        },
+        {
+          "date": "2026-07-27",
+          "waveMaxM": 0.98
+        },
+        {
+          "date": "2026-07-28",
+          "waveMaxM": 0.8
         }
       ]
     },
@@ -229,40 +229,40 @@
       "lat": 32.826,
       "lon": 34.955,
       "today": {
-        "date": "2026-07-21",
-        "sunrise": "05:46",
-        "waveHeightNowM": 0.5,
-        "waveHeightMaxTodayM": 0.54,
-        "seaTempC": 29.3,
-        "windKmh": 16.1,
+        "date": "2026-07-22",
+        "sunrise": "05:47",
+        "waveHeightNowM": 0.64,
+        "waveHeightMaxTodayM": 0.66,
+        "seaTempC": 29.0,
+        "windKmh": 9.2,
         "currentKmh": 0.5,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-07-22",
-          "waveMaxM": 0.66
-        },
-        {
           "date": "2026-07-23",
           "waveMaxM": 0.84
         },
         {
           "date": "2026-07-24",
-          "waveMaxM": 1.46
+          "waveMaxM": 1.52
         },
         {
           "date": "2026-07-25",
-          "waveMaxM": 1.58
+          "waveMaxM": 1.68
         },
         {
           "date": "2026-07-26",
-          "waveMaxM": 1.16
+          "waveMaxM": 1.26
         },
         {
           "date": "2026-07-27",
-          "waveMaxM": 0.9
+          "waveMaxM": 0.94
+        },
+        {
+          "date": "2026-07-28",
+          "waveMaxM": 0.74
         }
       ]
     },
@@ -273,21 +273,17 @@
       "lat": 29.556,
       "lon": 34.951,
       "today": {
-        "date": "2026-07-21",
-        "sunrise": "05:53",
+        "date": "2026-07-22",
+        "sunrise": "05:54",
         "waveHeightNowM": null,
         "waveHeightMaxTodayM": null,
-        "seaTempC": 28.3,
-        "windKmh": 20.3,
-        "currentKmh": 0.4,
+        "seaTempC": 27.9,
+        "windKmh": 4.8,
+        "currentKmh": 0.2,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-07-22",
-          "waveMaxM": null
-        },
         {
           "date": "2026-07-23",
           "waveMaxM": null
@@ -306,6 +302,10 @@
         },
         {
           "date": "2026-07-27",
+          "waveMaxM": null
+        },
+        {
+          "date": "2026-07-28",
           "waveMaxM": null
         }
       ]
