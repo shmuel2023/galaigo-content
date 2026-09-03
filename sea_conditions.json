@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:57:25Z",
+  "generatedAt": "2026-09-03T06:45:14Z",
   "attribution": "נתוני ים: Open-Meteo · DWD (CC BY 4.0)",
   "beaches": [
     {
@@ -9,39 +9,39 @@
       "lat": 32.088,
       "lon": 34.767,
       "today": {
-        "date": "2026-09-02",
-        "sunrise": "06:16",
-        "waveHeightNowM": 0.6,
-        "waveHeightMaxTodayM": 0.66,
-        "seaTempC": 30.3,
-        "windKmh": 9.7,
+        "date": "2026-09-03",
+        "sunrise": "06:17",
+        "waveHeightNowM": 0.42,
+        "waveHeightMaxTodayM": 0.58,
+        "seaTempC": 30.1,
+        "windKmh": 5.7,
         "currentKmh": 0.3,
-        "afterStorm": true,
-        "afterStormNote": "הים היה גבוה לאחרונה — עכשיו הזדמנות מצוינת, החול זז ונחשפו שכבות."
+        "afterStorm": false,
+        "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-09-03",
-          "waveMaxM": 0.54
-        },
         {
           "date": "2026-09-04",
           "waveMaxM": 0.52
         },
         {
           "date": "2026-09-05",
-          "waveMaxM": 0.72
+          "waveMaxM": 0.68
         },
         {
           "date": "2026-09-06",
-          "waveMaxM": 0.76
-        },
-        {
-          "date": "2026-09-07",
           "waveMaxM": 0.72
         },
         {
+          "date": "2026-09-07",
+          "waveMaxM": 0.7
+        },
+        {
           "date": "2026-09-08",
+          "waveMaxM": 0.62
+        },
+        {
+          "date": "2026-09-09",
           "waveMaxM": 0.66
         }
       ]
@@ -53,24 +53,20 @@
       "lat": 31.673,
       "lon": 34.556,
       "today": {
-        "date": "2026-09-02",
+        "date": "2026-09-03",
         "sunrise": "06:18",
-        "waveHeightNowM": 0.6,
-        "waveHeightMaxTodayM": 0.62,
-        "seaTempC": 30.1,
-        "windKmh": 13.6,
-        "currentKmh": 0.4,
-        "afterStorm": true,
-        "afterStormNote": "הים היה גבוה לאחרונה — עכשיו הזדמנות מצוינת, החול זז ונחשפו שכבות."
+        "waveHeightNowM": 0.42,
+        "waveHeightMaxTodayM": 0.58,
+        "seaTempC": 30.0,
+        "windKmh": 5.2,
+        "currentKmh": 0.0,
+        "afterStorm": false,
+        "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-09-03",
-          "waveMaxM": 0.54
-        },
-        {
           "date": "2026-09-04",
-          "waveMaxM": 0.48
+          "waveMaxM": 0.52
         },
         {
           "date": "2026-09-05",
@@ -78,15 +74,19 @@
         },
         {
           "date": "2026-09-06",
-          "waveMaxM": 0.72
+          "waveMaxM": 0.7
         },
         {
           "date": "2026-09-07",
-          "waveMaxM": 0.72
+          "waveMaxM": 0.68
         },
         {
           "date": "2026-09-08",
-          "waveMaxM": 0.66
+          "waveMaxM": 0.58
+        },
+        {
+          "date": "2026-09-09",
+          "waveMaxM": 0.64
         }
       ]
     },
@@ -97,40 +97,40 @@
       "lat": 31.93,
       "lon": 34.698,
       "today": {
-        "date": "2026-09-02",
+        "date": "2026-09-03",
         "sunrise": "06:17",
-        "waveHeightNowM": 0.6,
-        "waveHeightMaxTodayM": 0.64,
-        "seaTempC": 30.0,
-        "windKmh": 10.5,
-        "currentKmh": 0.2,
-        "afterStorm": true,
-        "afterStormNote": "הים היה גבוה לאחרונה — עכשיו הזדמנות מצוינת, החול זז ונחשפו שכבות."
+        "waveHeightNowM": 0.42,
+        "waveHeightMaxTodayM": 0.58,
+        "seaTempC": 29.9,
+        "windKmh": 4.8,
+        "currentKmh": 0.6,
+        "afterStorm": false,
+        "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-09-03",
-          "waveMaxM": 0.56
-        },
-        {
           "date": "2026-09-04",
-          "waveMaxM": 0.5
+          "waveMaxM": 0.52
         },
         {
           "date": "2026-09-05",
-          "waveMaxM": 0.7
+          "waveMaxM": 0.66
         },
         {
           "date": "2026-09-06",
-          "waveMaxM": 0.76
+          "waveMaxM": 0.72
         },
         {
           "date": "2026-09-07",
-          "waveMaxM": 0.74
+          "waveMaxM": 0.7
         },
         {
           "date": "2026-09-08",
-          "waveMaxM": 0.68
+          "waveMaxM": 0.62
+        },
+        {
+          "date": "2026-09-09",
+          "waveMaxM": 0.66
         }
       ]
     },
@@ -141,39 +141,39 @@
       "lat": 32.516,
       "lon": 34.892,
       "today": {
-        "date": "2026-09-02",
-        "sunrise": "06:15",
-        "waveHeightNowM": 0.58,
-        "waveHeightMaxTodayM": 0.66,
-        "seaTempC": 29.9,
-        "windKmh": 12.7,
-        "currentKmh": 0.2,
-        "afterStorm": true,
-        "afterStormNote": "הים היה גבוה לאחרונה — עכשיו הזדמנות מצוינת, החול זז ונחשפו שכבות."
+        "date": "2026-09-03",
+        "sunrise": "06:16",
+        "waveHeightNowM": 0.4,
+        "waveHeightMaxTodayM": 0.52,
+        "seaTempC": 29.8,
+        "windKmh": 6.6,
+        "currentKmh": 0.4,
+        "afterStorm": false,
+        "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-09-03",
-          "waveMaxM": 0.5
-        },
-        {
           "date": "2026-09-04",
-          "waveMaxM": 0.48
+          "waveMaxM": 0.52
         },
         {
           "date": "2026-09-05",
-          "waveMaxM": 0.7
+          "waveMaxM": 0.66
         },
         {
           "date": "2026-09-06",
-          "waveMaxM": 0.72
+          "waveMaxM": 0.7
         },
         {
           "date": "2026-09-07",
-          "waveMaxM": 0.72
+          "waveMaxM": 0.66
         },
         {
           "date": "2026-09-08",
+          "waveMaxM": 0.58
+        },
+        {
+          "date": "2026-09-09",
           "waveMaxM": 0.64
         }
       ]
@@ -185,39 +185,39 @@
       "lat": 32.328,
       "lon": 34.849,
       "today": {
-        "date": "2026-09-02",
+        "date": "2026-09-03",
         "sunrise": "06:16",
-        "waveHeightNowM": 0.6,
-        "waveHeightMaxTodayM": 0.66,
+        "waveHeightNowM": 0.42,
+        "waveHeightMaxTodayM": 0.56,
         "seaTempC": 30.0,
-        "windKmh": 11.0,
+        "windKmh": 9.8,
         "currentKmh": 0.4,
-        "afterStorm": true,
-        "afterStormNote": "הים היה גבוה לאחרונה — עכשיו הזדמנות מצוינת, החול זז ונחשפו שכבות."
+        "afterStorm": false,
+        "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-09-03",
+          "date": "2026-09-04",
           "waveMaxM": 0.54
         },
         {
-          "date": "2026-09-04",
-          "waveMaxM": 0.5
-        },
-        {
           "date": "2026-09-05",
-          "waveMaxM": 0.72
+          "waveMaxM": 0.68
         },
         {
           "date": "2026-09-06",
-          "waveMaxM": 0.76
-        },
-        {
-          "date": "2026-09-07",
           "waveMaxM": 0.72
         },
         {
+          "date": "2026-09-07",
+          "waveMaxM": 0.7
+        },
+        {
           "date": "2026-09-08",
+          "waveMaxM": 0.6
+        },
+        {
+          "date": "2026-09-09",
           "waveMaxM": 0.66
         }
       ]
@@ -229,40 +229,40 @@
       "lat": 32.826,
       "lon": 34.955,
       "today": {
-        "date": "2026-09-02",
+        "date": "2026-09-03",
         "sunrise": "06:15",
-        "waveHeightNowM": 0.52,
-        "waveHeightMaxTodayM": 0.66,
-        "seaTempC": 30.0,
-        "windKmh": 16.7,
-        "currentKmh": 0.2,
-        "afterStorm": true,
-        "afterStormNote": "הים היה גבוה לאחרונה — עכשיו הזדמנות מצוינת, החול זז ונחשפו שכבות."
+        "waveHeightNowM": 0.38,
+        "waveHeightMaxTodayM": 0.48,
+        "seaTempC": 29.8,
+        "windKmh": 9.4,
+        "currentKmh": 0.6,
+        "afterStorm": false,
+        "afterStormNote": null
       },
       "forecast": [
         {
-          "date": "2026-09-03",
-          "waveMaxM": 0.46
-        },
-        {
           "date": "2026-09-04",
-          "waveMaxM": 0.48
+          "waveMaxM": 0.5
         },
         {
           "date": "2026-09-05",
-          "waveMaxM": 0.7
-        },
-        {
-          "date": "2026-09-06",
-          "waveMaxM": 0.7
-        },
-        {
-          "date": "2026-09-07",
           "waveMaxM": 0.66
         },
         {
+          "date": "2026-09-06",
+          "waveMaxM": 0.66
+        },
+        {
+          "date": "2026-09-07",
+          "waveMaxM": 0.64
+        },
+        {
           "date": "2026-09-08",
-          "waveMaxM": 0.62
+          "waveMaxM": 0.56
+        },
+        {
+          "date": "2026-09-09",
+          "waveMaxM": 0.6
         }
       ]
     },
@@ -273,21 +273,17 @@
       "lat": 29.556,
       "lon": 34.951,
       "today": {
-        "date": "2026-09-02",
+        "date": "2026-09-03",
         "sunrise": "06:18",
         "waveHeightNowM": null,
         "waveHeightMaxTodayM": null,
-        "seaTempC": 28.8,
-        "windKmh": 18.4,
-        "currentKmh": 0.3,
+        "seaTempC": 28.7,
+        "windKmh": 9.4,
+        "currentKmh": 0.4,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
-        {
-          "date": "2026-09-03",
-          "waveMaxM": null
-        },
         {
           "date": "2026-09-04",
           "waveMaxM": null
@@ -306,6 +302,10 @@
         },
         {
           "date": "2026-09-08",
+          "waveMaxM": null
+        },
+        {
+          "date": "2026-09-09",
           "waveMaxM": null
         }
       ]
