@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T06:57:35Z",
+  "generatedAt": "2026-09-26T16:50:50Z",
   "attribution": "נתוני ים: Open-Meteo · DWD (CC BY 4.0)",
   "beaches": [
     {
@@ -11,10 +11,10 @@
       "today": {
         "date": "2026-09-26",
         "sunrise": "06:31",
-        "waveHeightNowM": 0.8,
-        "waveHeightMaxTodayM": 0.94,
-        "seaTempC": 29.1,
-        "windKmh": 2.1,
+        "waveHeightNowM": 0.66,
+        "waveHeightMaxTodayM": 0.9,
+        "seaTempC": 29.2,
+        "windKmh": 5.1,
         "currentKmh": 0.2,
         "afterStorm": false,
         "afterStormNote": null
@@ -22,11 +22,11 @@
       "forecast": [
         {
           "date": "2026-09-27",
-          "waveMaxM": 0.6
+          "waveMaxM": 0.58
         },
         {
           "date": "2026-09-28",
-          "waveMaxM": 0.76
+          "waveMaxM": 0.74
         },
         {
           "date": "2026-09-29",
@@ -38,11 +38,11 @@
         },
         {
           "date": "2026-10-01",
-          "waveMaxM": 0.88
+          "waveMaxM": 0.84
         },
         {
           "date": "2026-10-02",
-          "waveMaxM": 0.7
+          "waveMaxM": 0.72
         }
       ]
     },
@@ -55,11 +55,55 @@
       "today": {
         "date": "2026-09-26",
         "sunrise": "06:32",
-        "waveHeightNowM": 0.78,
+        "waveHeightNowM": 0.66,
+        "waveHeightMaxTodayM": 0.88,
+        "seaTempC": 29.3,
+        "windKmh": 8.8,
+        "currentKmh": 0.4,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-09-27",
+          "waveMaxM": 0.58
+        },
+        {
+          "date": "2026-09-28",
+          "waveMaxM": 0.68
+        },
+        {
+          "date": "2026-09-29",
+          "waveMaxM": 0.76
+        },
+        {
+          "date": "2026-09-30",
+          "waveMaxM": 0.88
+        },
+        {
+          "date": "2026-10-01",
+          "waveMaxM": 0.78
+        },
+        {
+          "date": "2026-10-02",
+          "waveMaxM": 0.68
+        }
+      ]
+    },
+    {
+      "id": "palmachim",
+      "name": "חוף פלמחים",
+      "region": "מרכז",
+      "lat": 31.93,
+      "lon": 34.698,
+      "today": {
+        "date": "2026-09-26",
+        "sunrise": "06:31",
+        "waveHeightNowM": 0.68,
         "waveHeightMaxTodayM": 0.9,
-        "seaTempC": 29.2,
-        "windKmh": 0.5,
-        "currentKmh": 0.3,
+        "seaTempC": 29.3,
+        "windKmh": 5.4,
+        "currentKmh": 0.4,
         "afterStorm": false,
         "afterStormNote": null
       },
@@ -78,39 +122,83 @@
         },
         {
           "date": "2026-09-30",
-          "waveMaxM": 0.86
+          "waveMaxM": 0.9
         },
         {
           "date": "2026-10-01",
-          "waveMaxM": 0.8
+          "waveMaxM": 0.82
         },
         {
           "date": "2026-10-02",
-          "waveMaxM": 0.66
+          "waveMaxM": 0.72
         }
       ]
     },
     {
-      "id": "palmachim",
-      "name": "חוף פלמחים",
-      "region": "מרכז",
-      "lat": 31.93,
-      "lon": 34.698,
+      "id": "caesarea-aqueduct",
+      "name": "חוף האקוודוקט, קיסריה",
+      "region": "חוף הכרמל",
+      "lat": 32.516,
+      "lon": 34.892,
       "today": {
         "date": "2026-09-26",
-        "sunrise": "06:31",
-        "waveHeightNowM": 0.8,
-        "waveHeightMaxTodayM": 0.92,
-        "seaTempC": 29.3,
-        "windKmh": 2.2,
-        "currentKmh": 0.3,
+        "sunrise": "06:30",
+        "waveHeightNowM": 0.64,
+        "waveHeightMaxTodayM": 0.88,
+        "seaTempC": 29.2,
+        "windKmh": 7.7,
+        "currentKmh": 0.0,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
         {
           "date": "2026-09-27",
-          "waveMaxM": 0.6
+          "waveMaxM": 0.56
+        },
+        {
+          "date": "2026-09-28",
+          "waveMaxM": 0.76
+        },
+        {
+          "date": "2026-09-29",
+          "waveMaxM": 0.8
+        },
+        {
+          "date": "2026-09-30",
+          "waveMaxM": 0.88
+        },
+        {
+          "date": "2026-10-01",
+          "waveMaxM": 0.84
+        },
+        {
+          "date": "2026-10-02",
+          "waveMaxM": 0.68
+        }
+      ]
+    },
+    {
+      "id": "netanya-sironit",
+      "name": "חוף סירונית, נתניה",
+      "region": "נתניה",
+      "lat": 32.328,
+      "lon": 34.849,
+      "today": {
+        "date": "2026-09-26",
+        "sunrise": "06:31",
+        "waveHeightNowM": 0.66,
+        "waveHeightMaxTodayM": 0.9,
+        "seaTempC": 29.3,
+        "windKmh": 5.9,
+        "currentKmh": 0.0,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-09-27",
+          "waveMaxM": 0.58
         },
         {
           "date": "2026-09-28",
@@ -130,95 +218,7 @@
         },
         {
           "date": "2026-10-02",
-          "waveMaxM": 0.7
-        }
-      ]
-    },
-    {
-      "id": "caesarea-aqueduct",
-      "name": "חוף האקוודוקט, קיסריה",
-      "region": "חוף הכרמל",
-      "lat": 32.516,
-      "lon": 34.892,
-      "today": {
-        "date": "2026-09-26",
-        "sunrise": "06:30",
-        "waveHeightNowM": 0.76,
-        "waveHeightMaxTodayM": 0.92,
-        "seaTempC": 29.2,
-        "windKmh": 3.4,
-        "currentKmh": 0.2,
-        "afterStorm": false,
-        "afterStormNote": null
-      },
-      "forecast": [
-        {
-          "date": "2026-09-27",
-          "waveMaxM": 0.58
-        },
-        {
-          "date": "2026-09-28",
-          "waveMaxM": 0.78
-        },
-        {
-          "date": "2026-09-29",
-          "waveMaxM": 0.8
-        },
-        {
-          "date": "2026-09-30",
-          "waveMaxM": 0.92
-        },
-        {
-          "date": "2026-10-01",
-          "waveMaxM": 0.86
-        },
-        {
-          "date": "2026-10-02",
-          "waveMaxM": 0.66
-        }
-      ]
-    },
-    {
-      "id": "netanya-sironit",
-      "name": "חוף סירונית, נתניה",
-      "region": "נתניה",
-      "lat": 32.328,
-      "lon": 34.849,
-      "today": {
-        "date": "2026-09-26",
-        "sunrise": "06:31",
-        "waveHeightNowM": 0.8,
-        "waveHeightMaxTodayM": 0.94,
-        "seaTempC": 29.3,
-        "windKmh": 2.8,
-        "currentKmh": 0.0,
-        "afterStorm": false,
-        "afterStormNote": null
-      },
-      "forecast": [
-        {
-          "date": "2026-09-27",
-          "waveMaxM": 0.6
-        },
-        {
-          "date": "2026-09-28",
-          "waveMaxM": 0.78
-        },
-        {
-          "date": "2026-09-29",
-          "waveMaxM": 0.8
-        },
-        {
-          "date": "2026-09-30",
-          "waveMaxM": 0.92
-        },
-        {
-          "date": "2026-10-01",
-          "waveMaxM": 0.88
-        },
-        {
-          "date": "2026-10-02",
-          "waveMaxM": 0.7
+          "waveMaxM": 0.72
         }
       ]
     },
@@ -231,10 +231,10 @@
       "today": {
         "date": "2026-09-26",
         "sunrise": "06:30",
-        "waveHeightNowM": 0.74,
-        "waveHeightMaxTodayM": 0.88,
-        "seaTempC": 28.9,
-        "windKmh": 8.1,
+        "waveHeightNowM": 0.58,
+        "waveHeightMaxTodayM": 0.86,
+        "seaTempC": 29.0,
+        "windKmh": 12.1,
         "currentKmh": 0.0,
         "afterStorm": false,
         "afterStormNote": null
@@ -242,7 +242,7 @@
       "forecast": [
         {
           "date": "2026-09-27",
-          "waveMaxM": 0.56
+          "waveMaxM": 0.52
         },
         {
           "date": "2026-09-28",
@@ -254,11 +254,11 @@
         },
         {
           "date": "2026-09-30",
-          "waveMaxM": 0.9
+          "waveMaxM": 0.84
         },
         {
           "date": "2026-10-01",
-          "waveMaxM": 0.84
+          "waveMaxM": 0.82
         },
         {
           "date": "2026-10-02",
@@ -277,9 +277,9 @@
         "sunrise": "06:30",
         "waveHeightNowM": null,
         "waveHeightMaxTodayM": null,
-        "seaTempC": 27.2,
-        "windKmh": 15.5,
-        "currentKmh": 0.6,
+        "seaTempC": 27.4,
+        "windKmh": 13.9,
+        "currentKmh": 0.3,
         "afterStorm": false,
         "afterStormNote": null
       },
