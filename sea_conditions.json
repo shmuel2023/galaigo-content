@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T07:45:54Z",
+  "generatedAt": "2026-09-29T18:24:37Z",
   "attribution": "נתוני ים: Open-Meteo · DWD (CC BY 4.0)",
   "beaches": [
     {
@@ -11,142 +11,10 @@
       "today": {
         "date": "2026-09-29",
         "sunrise": "06:33",
-        "waveHeightNowM": 0.98,
+        "waveHeightNowM": 1.06,
         "waveHeightMaxTodayM": 1.06,
-        "seaTempC": 28.8,
-        "windKmh": 13.4,
-        "currentKmh": 0.4,
-        "afterStorm": false,
-        "afterStormNote": null
-      },
-      "forecast": [
-        {
-          "date": "2026-09-30",
-          "waveMaxM": 1.06
-        },
-        {
-          "date": "2026-10-01",
-          "waveMaxM": 0.9
-        },
-        {
-          "date": "2026-10-02",
-          "waveMaxM": 0.82
-        },
-        {
-          "date": "2026-10-03",
-          "waveMaxM": 0.58
-        },
-        {
-          "date": "2026-10-04",
-          "waveMaxM": 0.48
-        },
-        {
-          "date": "2026-10-05",
-          "waveMaxM": 0.48
-        }
-      ]
-    },
-    {
-      "id": "ashkelon-delila",
-      "name": "חוף דלילה, אשקלון",
-      "region": "אשקלון",
-      "lat": 31.673,
-      "lon": 34.556,
-      "today": {
-        "date": "2026-09-29",
-        "sunrise": "06:34",
-        "waveHeightNowM": 0.9,
-        "waveHeightMaxTodayM": 1.0,
-        "seaTempC": 28.9,
-        "windKmh": 21.2,
-        "currentKmh": 0.6,
-        "afterStorm": false,
-        "afterStormNote": null
-      },
-      "forecast": [
-        {
-          "date": "2026-09-30",
-          "waveMaxM": 1.0
-        },
-        {
-          "date": "2026-10-01",
-          "waveMaxM": 0.82
-        },
-        {
-          "date": "2026-10-02",
-          "waveMaxM": 0.72
-        },
-        {
-          "date": "2026-10-03",
-          "waveMaxM": 0.52
-        },
-        {
-          "date": "2026-10-04",
-          "waveMaxM": 0.46
-        },
-        {
-          "date": "2026-10-05",
-          "waveMaxM": 0.5
-        }
-      ]
-    },
-    {
-      "id": "palmachim",
-      "name": "חוף פלמחים",
-      "region": "מרכז",
-      "lat": 31.93,
-      "lon": 34.698,
-      "today": {
-        "date": "2026-09-29",
-        "sunrise": "06:33",
-        "waveHeightNowM": 0.96,
-        "waveHeightMaxTodayM": 1.04,
-        "seaTempC": 29.0,
-        "windKmh": 15.0,
-        "currentKmh": 0.5,
-        "afterStorm": false,
-        "afterStormNote": null
-      },
-      "forecast": [
-        {
-          "date": "2026-09-30",
-          "waveMaxM": 1.04
-        },
-        {
-          "date": "2026-10-01",
-          "waveMaxM": 0.86
-        },
-        {
-          "date": "2026-10-02",
-          "waveMaxM": 0.78
-        },
-        {
-          "date": "2026-10-03",
-          "waveMaxM": 0.56
-        },
-        {
-          "date": "2026-10-04",
-          "waveMaxM": 0.48
-        },
-        {
-          "date": "2026-10-05",
-          "waveMaxM": 0.5
-        }
-      ]
-    },
-    {
-      "id": "caesarea-aqueduct",
-      "name": "חוף האקוודוקט, קיסריה",
-      "region": "חוף הכרמל",
-      "lat": 32.516,
-      "lon": 34.892,
-      "today": {
-        "date": "2026-09-29",
-        "sunrise": "06:32",
-        "waveHeightNowM": 1.0,
-        "waveHeightMaxTodayM": 1.06,
-        "seaTempC": 28.9,
-        "windKmh": 13.4,
+        "seaTempC": 28.7,
+        "windKmh": 6.9,
         "currentKmh": 0.4,
         "afterStorm": false,
         "afterStormNote": null
@@ -162,7 +30,51 @@
         },
         {
           "date": "2026-10-02",
-          "waveMaxM": 0.84
+          "waveMaxM": 0.8
+        },
+        {
+          "date": "2026-10-03",
+          "waveMaxM": 0.62
+        },
+        {
+          "date": "2026-10-04",
+          "waveMaxM": 0.54
+        },
+        {
+          "date": "2026-10-05",
+          "waveMaxM": 0.46
+        }
+      ]
+    },
+    {
+      "id": "ashkelon-delila",
+      "name": "חוף דלילה, אשקלון",
+      "region": "אשקלון",
+      "lat": 31.673,
+      "lon": 34.556,
+      "today": {
+        "date": "2026-09-29",
+        "sunrise": "06:34",
+        "waveHeightNowM": 0.98,
+        "waveHeightMaxTodayM": 0.98,
+        "seaTempC": 28.8,
+        "windKmh": 9.7,
+        "currentKmh": 0.6,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-09-30",
+          "waveMaxM": 0.98
+        },
+        {
+          "date": "2026-10-01",
+          "waveMaxM": 0.8
+        },
+        {
+          "date": "2026-10-02",
+          "waveMaxM": 0.7
         },
         {
           "date": "2026-10-03",
@@ -170,11 +82,99 @@
         },
         {
           "date": "2026-10-04",
+          "waveMaxM": 0.52
+        },
+        {
+          "date": "2026-10-05",
           "waveMaxM": 0.44
+        }
+      ]
+    },
+    {
+      "id": "palmachim",
+      "name": "חוף פלמחים",
+      "region": "מרכז",
+      "lat": 31.93,
+      "lon": 34.698,
+      "today": {
+        "date": "2026-09-29",
+        "sunrise": "06:33",
+        "waveHeightNowM": 1.04,
+        "waveHeightMaxTodayM": 1.04,
+        "seaTempC": 29.0,
+        "windKmh": 6.5,
+        "currentKmh": 0.4,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-09-30",
+          "waveMaxM": 1.04
+        },
+        {
+          "date": "2026-10-01",
+          "waveMaxM": 0.86
+        },
+        {
+          "date": "2026-10-02",
+          "waveMaxM": 0.76
+        },
+        {
+          "date": "2026-10-03",
+          "waveMaxM": 0.62
+        },
+        {
+          "date": "2026-10-04",
+          "waveMaxM": 0.52
         },
         {
           "date": "2026-10-05",
           "waveMaxM": 0.46
+        }
+      ]
+    },
+    {
+      "id": "caesarea-aqueduct",
+      "name": "חוף האקוודוקט, קיסריה",
+      "region": "חוף הכרמל",
+      "lat": 32.516,
+      "lon": 34.892,
+      "today": {
+        "date": "2026-09-29",
+        "sunrise": "06:32",
+        "waveHeightNowM": 1.04,
+        "waveHeightMaxTodayM": 1.04,
+        "seaTempC": 28.9,
+        "windKmh": 5.2,
+        "currentKmh": 0.4,
+        "afterStorm": false,
+        "afterStormNote": null
+      },
+      "forecast": [
+        {
+          "date": "2026-09-30",
+          "waveMaxM": 1.04
+        },
+        {
+          "date": "2026-10-01",
+          "waveMaxM": 0.86
+        },
+        {
+          "date": "2026-10-02",
+          "waveMaxM": 0.82
+        },
+        {
+          "date": "2026-10-03",
+          "waveMaxM": 0.7
+        },
+        {
+          "date": "2026-10-04",
+          "waveMaxM": 0.52
+        },
+        {
+          "date": "2026-10-05",
+          "waveMaxM": 0.42
         }
       ]
     },
@@ -187,10 +187,10 @@
       "today": {
         "date": "2026-09-29",
         "sunrise": "06:33",
-        "waveHeightNowM": 0.98,
-        "waveHeightMaxTodayM": 1.08,
-        "seaTempC": 29.1,
-        "windKmh": 14.5,
+        "waveHeightNowM": 1.06,
+        "waveHeightMaxTodayM": 1.06,
+        "seaTempC": 29.0,
+        "windKmh": 5.9,
         "currentKmh": 0.3,
         "afterStorm": false,
         "afterStormNote": null
@@ -198,27 +198,27 @@
       "forecast": [
         {
           "date": "2026-09-30",
-          "waveMaxM": 1.08
+          "waveMaxM": 1.06
         },
         {
           "date": "2026-10-01",
-          "waveMaxM": 0.9
+          "waveMaxM": 0.88
         },
         {
           "date": "2026-10-02",
-          "waveMaxM": 0.84
+          "waveMaxM": 0.8
         },
         {
           "date": "2026-10-03",
-          "waveMaxM": 0.58
+          "waveMaxM": 0.66
         },
         {
           "date": "2026-10-04",
-          "waveMaxM": 0.46
+          "waveMaxM": 0.54
         },
         {
           "date": "2026-10-05",
-          "waveMaxM": 0.48
+          "waveMaxM": 0.44
         }
       ]
     },
@@ -231,18 +231,18 @@
       "today": {
         "date": "2026-09-29",
         "sunrise": "06:32",
-        "waveHeightNowM": 0.98,
-        "waveHeightMaxTodayM": 1.06,
+        "waveHeightNowM": 1.04,
+        "waveHeightMaxTodayM": 1.04,
         "seaTempC": 28.6,
-        "windKmh": 14.9,
-        "currentKmh": 0.4,
+        "windKmh": 8.6,
+        "currentKmh": 0.3,
         "afterStorm": false,
         "afterStormNote": null
       },
       "forecast": [
         {
           "date": "2026-09-30",
-          "waveMaxM": 1.06
+          "waveMaxM": 1.04
         },
         {
           "date": "2026-10-01",
@@ -250,19 +250,19 @@
         },
         {
           "date": "2026-10-02",
-          "waveMaxM": 0.82
+          "waveMaxM": 0.8
         },
         {
           "date": "2026-10-03",
-          "waveMaxM": 0.56
+          "waveMaxM": 0.72
         },
         {
           "date": "2026-10-04",
-          "waveMaxM": 0.42
+          "waveMaxM": 0.52
         },
         {
           "date": "2026-10-05",
-          "waveMaxM": 0.42
+          "waveMaxM": 0.38
         }
       ]
     },
@@ -278,8 +278,8 @@
         "waveHeightNowM": null,
         "waveHeightMaxTodayM": null,
         "seaTempC": 27.5,
-        "windKmh": 13.5,
-        "currentKmh": 0.4,
+        "windKmh": 14.7,
+        "currentKmh": 0.2,
         "afterStorm": false,
         "afterStormNote": null
       },
